@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.TDTChannels" name="[COLOR aqua]TDTChannels Repo[/COLOR]" version="0.0.1" provider-name="TDTChannels Team">
+  <extension point="xbmc.addon.repository" name="TDTChannels">
+        <info>https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/</datadir>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TDTChannels</summary>
+    <description>TDTChannels- Totalmente Gratis - Totalmente Legal
+    </description>
+    <platform>all</platform>
+    	<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>

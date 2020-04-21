@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.TDTChannels"
        name="[B][COLOR aqua]TDTChannels[/COLOR][/B]"
        version="0.0.2"
@@ -14,7 +13,7 @@
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
-    <import addon="script.module.inputstreamhelper" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>  
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" optional="true"/>
 	<import addon="script.module.simplejson" />
@@ -23,14 +22,14 @@
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
-  </extension>
-
+  </extension> 
+  
   <extension point="xbmc.addon.repository" name="TDTChannels">
         <info>https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/</datadir>
     </extension>
-
+  
   <extension point="xbmc.addon.metadata">
     <summary>TDTChannels</summary>
     <description>TDTChannels- Totalmente Gratis - Totalmente Legal
@@ -42,22 +41,3 @@
     </assets>
   </extension>
 </addon>
-
-<addon id="repository.TDTChannels" name="[COLOR aqua]TDTChannels Repo[/COLOR]" version="0.0.1" provider-name="TDTChannels Team">
-  <extension point="xbmc.addon.repository" name="TDTChannels">
-        <info>https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/AddonTDTChannels/Repositorio/master/Repositorio/</datadir>
-    </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>TDTChannels</summary>
-    <description>TDTChannels- Totalmente Gratis - Totalmente Legal
-    </description>
-    <platform>all</platform>
-    	<assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.png</fanart>
-    </assets>
-  </extension>
-</addon>
-</addons>
